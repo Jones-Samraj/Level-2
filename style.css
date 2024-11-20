@@ -1,0 +1,155 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+.hero {
+    background-image: url('Task Level 2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.cta-button {
+    background-color: #ff7f50;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.destinations {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.destinations h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.destination-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.destination-card {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.destination-card h3 {
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.booking {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.booking h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.booking-form input, .booking-form select {
+    padding: 10px;
+    font-size: 1em;
+    margin: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.booking-form button {
+    background-color: #ff7f50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.testimonials {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.testimonial-card h3 {
+    font-size: 1.5em;
+    color: #ff7f50;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
